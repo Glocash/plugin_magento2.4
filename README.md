@@ -18,7 +18,7 @@ php bin/magento setup:upgrade
 
 If the page prompts: "There has been an error processing your request", run the following:
 ```
-php bin/magento setup:static-content:deploy
+php bin/magento setup:static-content:deploy -f
 ```
 
 The plugin is now installed
